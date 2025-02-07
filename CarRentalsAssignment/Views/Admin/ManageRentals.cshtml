@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CarRentalsAssignment.Models.Rental>
+
+@{
+    ViewData["Title"] = "ManageRentals";
+}
+
+<h1>ManageRentals</h1>
+
+<p>
+    <a asp-controller="Rentals" asp-action="CreateRental">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Car)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Renter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RenterId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                <a asp-controller="Rentals" asp-action="DetailsRental" asp-route-id="@item.RentalId">Details</a> |
+                <a asp-controller="Rentals" asp-action="RemoveRental" asp-route-id="@item.RentalId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

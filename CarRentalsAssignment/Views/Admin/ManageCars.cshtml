@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CarRentalsAssignment.Models.Car>
+
+@{
+    ViewData["Title"] = "ManageCars";
+}
+
+<h1>ManageCars</h1>
+
+<p>
+    <a asp-action="CreateCar">Create New</a>
+</p>
+<table class="table align-middle">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th>
+                @* @Html.DisplayNameFor(model => model.ImageFilenames) *@
+                Current Images
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @* @Html.DisplayFor(modelItem => item.ImageFilenames) *@
+                    <div class="d-flex flex-row gap-2">
+                        @foreach (var image in item.ImageFilenames)
+                        {
+                                                        
+                                <img src="~/images/cars/@image" alt="Car Image" height="75" />
+                            
+                        }
+                    </div>
+            </td>
+            <td>
+                <a asp-action="EditCar" asp-route-id="@item.CarId">Edit</a> |
+                <a asp-action="DetailsCar" asp-route-id="@item.CarId">Details</a> |
+                <a asp-action="DeleteCar" asp-route-id="@item.CarId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
