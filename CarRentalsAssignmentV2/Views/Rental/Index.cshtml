@@ -1,0 +1,55 @@
+﻿@model IEnumerable<CarRentalsAssignmentV2.Models.Rental>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CarId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Renter.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Renter.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Renter.CustomerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Renter.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.RentalId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RentalId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

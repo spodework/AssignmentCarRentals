@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model CarRentalsAssignmentV2.ViewModels.CustomerDetailsViewModel
+@{
+	ViewData["Title"] = "Customer Dashboard";
+
+	var message = TempData["Message"] as string;
+
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+	<div class="alert alert-success">
+		@message
+	</div>
+}
+
+<div class="">
+	<h1 class="display-4">Dashboard for @Context.Session.GetString("UserName")</h1>
+	<div>
+		<h3>Customer Details:</h3>
+
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Customer.CustomerName)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Customer.CustomerName)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Customer.Email)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Customer.Email)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Customer.Role)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Customer.Role)
+			</dd>
+		</dl>
+
+	</div>
+	<h2>@Model.Customer.CustomerName's Rentals</h2>
+
+	<ul>
+		@foreach (var rental in Model.Rentals)
+		{
+			<li>
+				<span>ID:@rental.RentalId</span>
+				<span>Startdate: @rental.StartDate.ToShortDateString()</span>
+				<span>EndDate: @rental.EndDate.ToShortDateString()</span>
+				<span>
+					<a asp-action="Delete" asp-controller="Rental" asp-route-id="@rental.RentalId">Delete</a>
+				</span>
+			</li>
+		}
+
+
+	</ul>
+
+</div>

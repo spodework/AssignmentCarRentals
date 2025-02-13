@@ -1,0 +1,87 @@
+﻿@model CarRentalsAssignmentV2.ViewModels.CustomerDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Customer.CustomerId)
+        </dt>
+        <dd class = "col-sm-10">
+			@Html.DisplayFor(model => model.Customer.CustomerId)
+        </dd>
+        <dt class = "col-sm-2">
+			@Html.DisplayNameFor(model => model.Customer.CustomerName)
+        </dt>
+        <dd class = "col-sm-10">
+			@Html.DisplayFor(model => model.Customer.CustomerName)
+        </dd>
+        <dt class = "col-sm-2">
+			@Html.DisplayNameFor(model => model.Customer.Email)
+        </dt>
+        <dd class = "col-sm-10">
+			@Html.DisplayFor(model => model.Customer.Email)
+        </dd>
+        <dt class = "col-sm-2">
+			@Html.DisplayNameFor(model => model.Customer.Role)
+        </dt>
+        <dd class = "col-sm-10">
+			@Html.DisplayFor(model => model.Customer.Role)
+        </dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Customer.Password)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Customer.Password)
+		</dd>
+    </dl>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.Rentals.First().RentalId)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Rentals.First().CarId)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Rentals.First().StartDate)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Rentals.First().EndDate)
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model.Rentals)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.RentalId)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.CarId)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.StartDate)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.EndDate)
+					</td>
+					<td>
+						<a asp-action="Delete" asp-controller="Rental" asp-route-id="@item.RentalId">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+</div>
