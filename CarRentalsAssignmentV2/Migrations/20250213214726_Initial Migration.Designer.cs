@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRentalsAssignmentV2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250213191513_Initial migration")]
-    partial class Initialmigration
+    [Migration("20250213214726_Initial Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,8 +57,8 @@ namespace CarRentalsAssignmentV2.Migrations
                         new
                         {
                             AdminId = 1,
-                            AdminName = "admin",
-                            Email = "admin",
+                            AdminName = "Admin",
+                            Email = "admin@fbcarrentals.se",
                             Password = "admin",
                             Role = "Admin"
                         });
@@ -88,8 +88,14 @@ namespace CarRentalsAssignmentV2.Migrations
                         new
                         {
                             CarId = 1337,
-                            ImageFilenames = "[\"saab_900.jpg\",\"saab_900.jpg\",\"saab_900.jpg\"]",
+                            ImageFilenames = "[\"saab_900.jpg\",\"saab_900_2.jpg\",\"saab_900_3.jpg\"]",
                             Name = "Saab 900 (bra skick)"
+                        },
+                        new
+                        {
+                            CarId = 1453,
+                            ImageFilenames = "[\"opel_kadett-2.jpg\",\"opel_kadett-4.jpg\",\"opel-kadett.jpg\"]",
+                            Name = "Opel Kadett"
                         });
                 });
 
@@ -125,9 +131,9 @@ namespace CarRentalsAssignmentV2.Migrations
                         new
                         {
                             CustomerId = 1,
-                            CustomerName = "Kalle",
-                            Email = "coolcustoemr@carrentals.ab",
-                            Password = "kalle123",
+                            CustomerName = "kalle",
+                            Email = "kalle",
+                            Password = "kalle",
                             Role = "Customer"
                         });
                 });

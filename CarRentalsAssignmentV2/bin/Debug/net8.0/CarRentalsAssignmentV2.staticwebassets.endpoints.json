@@ -823,6 +823,334 @@
       ]
     },
     {
+      "Route": "images/cars/lada_samara2.png",
+      "AssetFile": "images/cars/lada_samara2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara2.s01ahgwp08.png",
+      "AssetFile": "images/cars/lada_samara2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s01ahgwp08"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/lada_samara2.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara3.jpg",
+      "AssetFile": "images/cars/lada_samara3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara3.v7i4kvb7o3.jpg",
+      "AssetFile": "images/cars/lada_samara3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7i4kvb7o3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/lada_samara3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel-kadett.c3byi2zqje.jpg",
+      "AssetFile": "images/cars/opel-kadett.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3byi2zqje"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/opel-kadett.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel-kadett.jpg",
+      "AssetFile": "images/cars/opel-kadett.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel_kadett-2.jpg",
+      "AssetFile": "images/cars/opel_kadett-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel_kadett-2.nim6aol0dq.jpg",
+      "AssetFile": "images/cars/opel_kadett-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nim6aol0dq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/opel_kadett-2.jpg"
+        }
+      ]
+    },
+    {
       "Route": "images/cars/opel_kadett-4.jpg",
       "AssetFile": "images/cars/opel_kadett-4.jpg",
       "Selectors": [],
@@ -983,6 +1311,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-lIzXxC4g5yQMyQ7jUZwzAfpSV9sI/idWBhgU0tLFsc8="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_2.966frd300n.jpg",
+      "AssetFile": "images/cars/saab_900_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:23:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "966frd300n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/saab_900_2.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_2.jpg",
+      "AssetFile": "images/cars/saab_900_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:23:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_3.f96i97ytrt.jpg",
+      "AssetFile": "images/cars/saab_900_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:25:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f96i97ytrt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/saab_900_3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_3.jpg",
+      "AssetFile": "images/cars/saab_900_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:25:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="
         }
       ]
     },

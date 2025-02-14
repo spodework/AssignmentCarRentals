@@ -7,8 +7,14 @@ wwwroot\images\cars\fiat_panda.jpg
 wwwroot\images\cars\ford_escort.jpg
 wwwroot\images\cars\ford_sierra.jpg
 wwwroot\images\cars\lada_samara.jpg
+wwwroot\images\cars\lada_samara2.png
+wwwroot\images\cars\lada_samara3.jpg
+wwwroot\images\cars\opel_kadett-2.jpg
 wwwroot\images\cars\opel_kadett-4.jpg
+wwwroot\images\cars\opel-kadett.jpg
 wwwroot\images\cars\saab_900.jpg
+wwwroot\images\cars\saab_900_2.jpg
+wwwroot\images\cars\saab_900_3.jpg
 wwwroot\images\cars\toyota_celica.jpg
 wwwroot\images\cars\volkswagen_golf_13.jpg
 wwwroot\images\cars\volvo-240.jpg

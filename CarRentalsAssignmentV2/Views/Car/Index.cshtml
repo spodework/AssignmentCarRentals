@@ -1,18 +1,18 @@
 ﻿@model IEnumerable<CarRentalsAssignmentV2.Models.Car>
 
 @{
-	ViewData["Title"] = "Index";
+	ViewData["Title"] = "CarIndex";
 
 	bool isAdmin = Context.Session.GetString("UserRole") == "Admin";
 
 }
 
-<h1>Index</h1>
+<h1>Index of Cars</h1>
 
 @if (isAdmin)
 {
 	<p>
-		<a asp-action="Create">Create New</a>
+		<a class="customlink" asp-action="Create">Create New Car</a>
 	</p>
 }
 
@@ -20,32 +20,31 @@
 	<table class="table table-striped">
 		<thead>
 			<tr>
-				<th style="width: 30%">
+				<th class="align-middle" style="width: 30%">
 					@Html.DisplayNameFor(model => model.Name)
 				</th>
-				<th>
-					@Html.DisplayNameFor(model => model.ImageFilenames)
+				<th class="align-middle">
+					Images
 				</th>
-				<th class="align-middle"></th>
+				<th class="align-middle">Actions</th>
 			</tr>
 		</thead>
 		<tbody>
 			@foreach (var item in Model)
 			{
 				<tr>
-					<td class="align-middle">
+					<td class="align-middle fs-5 px-4">
 						@Html.DisplayFor(modelItem => item.Name)
 					</td>
 					<td class="align-middle">
-						@* @Html.DisplayFor(modelItem => item.ImageFilenames) *@
-						<div class="d-flex flex-wrap gap-2">
+						<div class="d-flex flex-wrap gap-2 text-center">
 							@foreach (var image in item.ImageFilenames)
 							{
 								if (ViewBag.CarImages.Contains(image))
 								{
 									<div class=" d-flex flex-column">
-										<a href="~/images/cars/@image"><img title="@image" style="height:100px;" src="~/images/cars/@image" alt="Alternate Text" /></a>
-										<p>@image</p>
+										<a href="~/images/cars/@image"><img class="object-fit-cover" title="@image" style="height:120px; width:180px;" src="~/images/cars/@image" alt="@image" /></a>
+										@* <span>@image</span> *@
 									</div>
 								}
 								else
@@ -58,11 +57,11 @@
 					</td>
 					@if (!isAdmin)
 					{
-						<td class="align-middle"><a class="btn btn-primary" asp-controller="Rental" asp-action="Create" asp-route-id="@item.CarId">Book Car</a></td>
+						<td class="align-middle"><a class="btn btn-secondary" style="--bs-btn-bg: #f79a1b;" asp-controller="Rental" asp-action="Create" asp-route-id="@item.CarId">Book Car</a></td>
 					} else {
-						<td>
-							<a asp-action="Edit" asp-route-id="@item.CarId">Edit</a> |
-							<a asp-action="Delete" asp-route-id="@item.CarId">Delete</a>
+						<td class="align-middle">
+							<a class="customlink" asp-action="Edit" asp-route-id="@item.CarId">Edit</a> |
+							<a class="customlink" asp-action="Delete" asp-route-id="@item.CarId">Delete</a>
 						</td>
 					}
 

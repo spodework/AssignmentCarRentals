@@ -41,5 +41,11 @@ namespace CarRentalsAssignmentV2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Logout()
+        {
+            SessionHelper.LogoutSession(HttpContext);
+            return RedirectToAction("Index");
+        }
     }
 }

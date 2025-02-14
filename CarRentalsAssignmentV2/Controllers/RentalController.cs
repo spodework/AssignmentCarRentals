@@ -2,6 +2,7 @@
 using CarRentalsAssignmentV2.Data.Repositories;
 using CarRentalsAssignmentV2.Interfaces;
 using CarRentalsAssignmentV2.Models;
+using CarRentalsAssignmentV2.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,11 +12,13 @@ namespace CarRentalsAssignmentV2.Controllers
     {
         private readonly IRental _rentalRepository;
         private readonly ICustomer _customerRepository;
+        private readonly ICar _carRepository;
 
-        public RentalController(IRental rentalRepository, ICustomer customerRepository)
+        public RentalController(IRental rentalRepository, ICustomer customerRepository, ICar carRepository)
         {
             _rentalRepository = rentalRepository;
             _customerRepository = customerRepository;
+            _carRepository = carRepository;
         }
 
         [AuthenticateUserFilter]
@@ -33,19 +36,22 @@ namespace CarRentalsAssignmentV2.Controllers
             return View();
         }
 
-        // GET: RentalController/Create/5
+        // GET: RentalController/Create/<carId>
         public IActionResult Create(int id)
         {
-            var userRole = HttpContext.Session.GetString("UserRole");
+            //var userRole = HttpContext.Session.GetString("UserRole");
 
-            if (userRole == "Guest")
+            if (SessionHelper.IsGuestSession(HttpContext))
             {
                 TempData["ErrorMessage"] = "You need to log in or sign up to book a car.";
                 return RedirectToAction("SignupOrLogin", "Home");
             }
 
+            var car = _carRepository.GetById(id);
+            var rentals = _rentalRepository.GetRentalsByCar(id);
 
-
+            ViewBag.Car = car;
+            ViewBag.Rentals = rentals;
 
             return View();
         }
@@ -67,10 +73,6 @@ namespace CarRentalsAssignmentV2.Controllers
 
             _rentalRepository.Add(new Rental() { CarId = id, StartDate = startDate, EndDate = endDate, RenterId = userId, Renter = customer });
 
-
-
-            //var startDate = _rentalRepository.GetById(id).StartDate;
-            //var endDate = _rentalRepository.GetById(id).EndDate;
             TempData["Message"] = $"Booking confirmed! From: {startDate} to: {endDate}.";
 
             return RedirectToAction("Dashboard", "Customer");
@@ -112,17 +114,20 @@ namespace CarRentalsAssignmentV2.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(Rental rental)
         {
-            var myModelState = ModelState;
+
             try
             {
-                //if (ModelState.IsValid) {
-                _rentalRepository.Delete(rental);
-                //}
 
-                if (SessionHelper.IsAdminSession(HttpContext))
+                _rentalRepository.Delete(rental);
+
+
+                if (SessionHelper.IsAdminSession(HttpContext)) { 
                     return RedirectToAction(nameof(Index));
+                }
                 else
+                { 
                     return RedirectToAction("Dashboard", "Customer");
+                }
 
             }
             catch

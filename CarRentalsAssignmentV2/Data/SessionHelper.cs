@@ -16,5 +16,20 @@ namespace CarRentalsAssignmentV2.Data
         {
             return context.Session.GetString("UserRole") == "Admin";
         }
+
+        public static bool IsUserSession(HttpContext context)
+        {
+            return context.Session.GetString("UserRole") ==  "User";
+        }
+
+        public static bool IsGuestSession(HttpContext context)
+        {
+            return context.Session.GetString("UserRole") == "Guest";
+        }
+
+        public static void LogoutSession(HttpContext context)
+        {
+            context.Session.Clear();
+        }
     }
 }

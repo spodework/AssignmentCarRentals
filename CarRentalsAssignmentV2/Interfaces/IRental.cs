@@ -7,6 +7,8 @@ namespace CarRentalsAssignmentV2.Interfaces
         Rental GetById(int id);
         IQueryable<Rental> GetAll();
         IEnumerable<Rental> GetRentalsByCustomer(int customerId);
+
+        IEnumerable<Rental> GetRentalsByCar(int carId);
         void Add(Rental rental);
         void Update(Rental rental);
         void Delete(Rental rental);

@@ -120,6 +120,54 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z80k351ptn"},{"Name":"integrity","Value":"sha256-Q6UMIGmi5QtiygDipi\u002BYrbMW/PeFOtI7x3VU1WxZN/4="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/lada_samara.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57718"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Q6UMIGmi5QtiygDipi\u002BYrbMW/PeFOtI7x3VU1WxZN/4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:27:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/lada_samara2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\lada_samara2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VKuE0NH9Qza\u002BYOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2082422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VKuE0NH9Qza\u002BYOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:20:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/lada_samara2.s01ahgwp08.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\lada_samara2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s01ahgwp08"},{"Name":"integrity","Value":"sha256-VKuE0NH9Qza\u002BYOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/lada_samara2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2082422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VKuE0NH9Qza\u002BYOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:20:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/lada_samara3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\lada_samara3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6526"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:20:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/lada_samara3.v7i4kvb7o3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\lada_samara3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v7i4kvb7o3"},{"Name":"integrity","Value":"sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/lada_samara3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6526"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:20:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/opel-kadett.c3byi2zqje.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\opel-kadett.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c3byi2zqje"},{"Name":"integrity","Value":"sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/opel-kadett.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"105939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:22:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/opel-kadett.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\opel-kadett.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"105939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:22:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/opel_kadett-2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\opel_kadett-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gU4KVJS\u002Bpg/Z\u002Bwak5jSeNEVPC0xxUUmdf1olqlkJSzU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"61490"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gU4KVJS\u002Bpg/Z\u002Bwak5jSeNEVPC0xxUUmdf1olqlkJSzU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:22:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/opel_kadett-2.nim6aol0dq.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\opel_kadett-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nim6aol0dq"},{"Name":"integrity","Value":"sha256-gU4KVJS\u002Bpg/Z\u002Bwak5jSeNEVPC0xxUUmdf1olqlkJSzU="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/opel_kadett-2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"61490"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gU4KVJS\u002Bpg/Z\u002Bwak5jSeNEVPC0xxUUmdf1olqlkJSzU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:22:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/opel_kadett-4.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\opel_kadett-4.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -143,6 +191,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lIzXxC4g5yQMyQ7jUZwzAfpSV9sI/idWBhgU0tLFsc8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"57118"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lIzXxC4g5yQMyQ7jUZwzAfpSV9sI/idWBhgU0tLFsc8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:32:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/saab_900_2.966frd300n.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\saab_900_2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"966frd300n"},{"Name":"integrity","Value":"sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/\u002BI="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/saab_900_2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"111212"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/\u002BI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:23:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/saab_900_2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\saab_900_2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/\u002BI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"111212"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/\u002BI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:23:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/saab_900_3.f96i97ytrt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\saab_900_3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f96i97ytrt"},{"Name":"integrity","Value":"sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="},{"Name":"label","Value":"_content/CarRentalsAssignmentV2/images/cars/saab_900_3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10896"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:25:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/saab_900_3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\saab_900_3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10896"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 21:25:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRentalsAssignmentV2/images/cars/toyota_celica.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cars\toyota_celica.jpg'))</AssetFile>

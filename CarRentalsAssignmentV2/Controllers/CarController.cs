@@ -1,6 +1,7 @@
 ﻿using CarRentalsAssignmentV2.Data.Repositories;
 using CarRentalsAssignmentV2.Interfaces;
 using CarRentalsAssignmentV2.Models;
+using CarRentalsAssignmentV2.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -27,7 +28,6 @@ namespace CarRentalsAssignmentV2.Controllers
                                        .ToList();
 
             ViewBag.CarImages = carImages;
-            //ViewBag.Role = HttpContext.Session.GetString("UserRole");
 
             return View(_carRepository.GetAll());
         }
@@ -43,7 +43,7 @@ namespace CarRentalsAssignmentV2.Controllers
 
             carImages.Insert(0, "--Please choose an option--");
 
-            ViewBag.CarImages = new SelectList(carImages);
+            ViewBag.CarImages = new SelectList(carImages);          
 
             return View();
         }

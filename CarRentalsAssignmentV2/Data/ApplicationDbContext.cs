@@ -24,10 +24,10 @@ namespace CarRentalsAssignmentV2.Data
                 new Admin
                 {
                     AdminId = 1,
-                    AdminName = "admin",
+                    AdminName = "Admin",
                     Password = "admin",
                     Role = "Admin",
-                    Email = "admin"
+                    Email = "admin@fbcarrentals.se"
                 }
             );
 
@@ -36,10 +36,10 @@ namespace CarRentalsAssignmentV2.Data
                 new Customer
                 {
                     CustomerId = 1,
-                    CustomerName = "Kalle",
-                    Password = "kalle123",
+                    CustomerName = "kalle",
+                    Password = "kalle",
                     Role = "Customer",
-                    Email = "coolcustoemr@carrentals.ab"
+                    Email = "kalle"
                 }
             );
 
@@ -48,8 +48,14 @@ namespace CarRentalsAssignmentV2.Data
                 new Car
                 {
                     CarId = 1337,
-                    ImageFilenames = {"saab_900.jpg", "saab_900.jpg", "saab_900.jpg" },
+                    ImageFilenames = {"saab_900.jpg", "saab_900_2.jpg", "saab_900_3.jpg" },
                     Name = "Saab 900 (bra skick)"
+                },
+                new Car
+                {
+                    CarId = 1453,
+                    ImageFilenames = { "opel_kadett-2.jpg", "opel_kadett-4.jpg", "opel-kadett.jpg" },
+                    Name = "Opel Kadett"
                 }
             );
 

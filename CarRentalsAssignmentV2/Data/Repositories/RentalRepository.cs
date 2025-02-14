@@ -34,6 +34,11 @@ namespace CarRentalsAssignmentV2.Data.Repositories
             return _applicationDbContext.Rentals.Where(x => customerId == x.RenterId).OrderBy(r => r.RentalId); ;
         }
 
+        IEnumerable<Rental> IRental.GetRentalsByCar(int carId)
+        {
+            return _applicationDbContext.Rentals.Where(x => carId == x.CarId);
+        }
+
         Rental IRental.GetById(int id)
         {
             return _applicationDbContext.Rentals.FirstOrDefault(x => x.RentalId == id);

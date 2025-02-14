@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace CarRentalsAssignmentV2.Migrations
 {
     /// <inheritdoc />
-    public partial class Initialmigration : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -82,17 +84,21 @@ namespace CarRentalsAssignmentV2.Migrations
             migrationBuilder.InsertData(
                 table: "Admins",
                 columns: new[] { "AdminId", "AdminName", "Email", "Password", "Role" },
-                values: new object[] { 1, "admin", "admin", "admin", "Admin" });
+                values: new object[] { 1, "Admin", "admin@fbcarrentals.se", "admin", "Admin" });
 
             migrationBuilder.InsertData(
                 table: "Cars",
                 columns: new[] { "CarId", "ImageFilenames", "Name" },
-                values: new object[] { 1337, "[\"saab_900.jpg\",\"saab_900.jpg\",\"saab_900.jpg\"]", "Saab 900 (bra skick)" });
+                values: new object[,]
+                {
+                    { 1337, "[\"saab_900.jpg\",\"saab_900_2.jpg\",\"saab_900_3.jpg\"]", "Saab 900 (bra skick)" },
+                    { 1453, "[\"opel_kadett-2.jpg\",\"opel_kadett-4.jpg\",\"opel-kadett.jpg\"]", "Opel Kadett" }
+                });
 
             migrationBuilder.InsertData(
                 table: "Customers",
                 columns: new[] { "CustomerId", "CustomerName", "Email", "Password", "Role" },
-                values: new object[] { 1, "Kalle", "coolcustoemr@carrentals.ab", "kalle123", "Customer" });
+                values: new object[] { 1, "kalle", "kalle", "kalle", "Customer" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Rentals_RenterId",

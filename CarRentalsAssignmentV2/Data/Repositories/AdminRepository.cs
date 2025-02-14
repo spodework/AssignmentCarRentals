@@ -28,7 +28,7 @@ namespace CarRentalsAssignmentV2.Data.Repositories
             return _applicationDbContext.Admins.FirstOrDefault(x => x.Email == email);
         }
 
-        Admin IAdmin.GetByCustomerName(string adminName)
+        Admin IAdmin.GetByAdminName(string adminName)
         {
             return _applicationDbContext.Admins.FirstOrDefault(x => x.AdminName == adminName);
         }

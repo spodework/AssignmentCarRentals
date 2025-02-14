@@ -286,3 +286,4 @@ D:\Dev\School Assignments\CarRentalsAssignmentV2\CarRentalsAssignmentV2\bin\Debu
 D:\Dev\School Assignments\CarRentalsAssignmentV2\CarRentalsAssignmentV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Dev\School Assignments\CarRentalsAssignmentV2\CarRentalsAssignmentV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Dev\School Assignments\CarRentalsAssignmentV2\CarRentalsAssignmentV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Dev\School Assignments\CarRentalsAssignmentV2\CarRentalsAssignmentV2\obj\Debug\net8.0\CarRentalsAssignmentV2.sourcelink.json

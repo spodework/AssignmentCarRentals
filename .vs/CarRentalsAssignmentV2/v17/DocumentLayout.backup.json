@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\data\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\data\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\rental\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\rental\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\interfaces\\irental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\interfaces\\irental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\interfaces\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\interfaces\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\rental\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\rental\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\home\\signuporlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\home\\signuporlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\car\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\car\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\car\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\car\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|d:\\dev\\school assignments\\carrentalsassignmentv2\\carrentalsassignmentv2\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B128AA8-BCD9-4A09-B25A-379EB3B4654C}|CarRentalsAssignmentV2\\CarRentalsAssignmentV2.csproj|solutionrelative:carrentalsassignmentv2\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomer.cs",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Interfaces\\ICustomer.cs",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Interfaces\\ICustomer.cs",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Interfaces\\ICustomer.cs",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Interfaces\\ICustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:58:57.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Data\\Repositories\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Data\\Repositories\\RentalRepository.cs",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Data\\Repositories\\RentalRepository.cs",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Data\\Repositories\\RentalRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:57:54.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRental.cs",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Interfaces\\IRental.cs",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Interfaces\\IRental.cs",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Interfaces\\IRental.cs",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Interfaces\\IRental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:57:46.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Controllers\\RentalController.cs",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Controllers\\RentalController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:55:23.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Controllers\\CarController.cs",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Controllers\\CarController.cs",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:53:39.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:51:46.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:14:08.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Rental\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Rental\\Delete.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Rental\\Delete.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Rental\\Delete.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwCoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:45.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Rental\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Rental\\Create.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Rental\\Create.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Rental\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:43.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignupOrLogin.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Home\\SignupOrLogin.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Home\\SignupOrLogin.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Home\\SignupOrLogin.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Home\\SignupOrLogin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAWwCgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:39.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:36.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Customer\\Delete.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAWwCkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:34.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:32.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Car\\Edit.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Edit.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Car\\Edit.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAWwDAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:28.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Car\\Delete.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Delete.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Car\\Delete.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwB0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:22.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAWwBkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:10:16.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRentalsAssignmentV2\\Views\\Car\\Create.cshtml",
+              "ToolTip": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\Views\\Car\\Create.cshtml",
+              "RelativeToolTip": "CarRentalsAssignmentV2\\Views\\Car\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwC4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:09:49.788Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

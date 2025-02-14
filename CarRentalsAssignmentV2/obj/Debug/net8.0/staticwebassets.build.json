@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T1oERFX7q2+9FRlt0bGwpP6zIcyy9GApPx9Oq+r3/wo=",
+  "Hash": "WceXbYeJYRVqGw+g25wqpOpmS2A0+rut9DU9CRbNEeE=",
   "Source": "CarRentalsAssignmentV2",
   "BasePath": "_content/CarRentalsAssignmentV2",
   "Mode": "Default",
@@ -248,6 +248,69 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\lada_samara.jpg"
     },
     {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara2.png",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/lada_samara2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s01ahgwp08",
+      "Integrity": "VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\lada_samara2.png"
+    },
+    {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara3.jpg",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/lada_samara3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v7i4kvb7o3",
+      "Integrity": "xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\lada_samara3.jpg"
+    },
+    {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-2.jpg",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/opel_kadett-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nim6aol0dq",
+      "Integrity": "gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\opel_kadett-2.jpg"
+    },
+    {
       "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-4.jpg",
       "SourceId": "CarRentalsAssignmentV2",
       "SourceType": "Discovered",
@@ -269,6 +332,27 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\opel_kadett-4.jpg"
     },
     {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel-kadett.jpg",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/opel-kadett#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c3byi2zqje",
+      "Integrity": "qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\opel-kadett.jpg"
+    },
+    {
       "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900.jpg",
       "SourceId": "CarRentalsAssignmentV2",
       "SourceType": "Discovered",
@@ -288,6 +372,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cars\\saab_900.jpg"
+    },
+    {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_2.jpg",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/saab_900_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "966frd300n",
+      "Integrity": "AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\saab_900_2.jpg"
+    },
+    {
+      "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_3.jpg",
+      "SourceId": "CarRentalsAssignmentV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\",
+      "BasePath": "_content/CarRentalsAssignmentV2",
+      "RelativePath": "images/cars/saab_900_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f96i97ytrt",
+      "Integrity": "M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cars\\saab_900_3.jpg"
     },
     {
       "Identity": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\toyota_celica.jpg",
@@ -2517,6 +2643,252 @@
       ]
     },
     {
+      "Route": "images/cars/lada_samara2.png",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara2.s01ahgwp08.png",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s01ahgwp08"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/lada_samara2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKuE0NH9Qza+YOpCz2KBRN2vWf8/kpxQfbVK8DbHKZU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara3.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/lada_samara3.v7i4kvb7o3.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7i4kvb7o3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/lada_samara3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xeq0uT6D7nDILyxFe10v1bonYiNuTDpQufc83lYGH2k="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel_kadett-2.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel_kadett-2.nim6aol0dq.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nim6aol0dq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/opel_kadett-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gU4KVJS+pg/Z+wak5jSeNEVPC0xxUUmdf1olqlkJSzU="
+        }
+      ]
+    },
+    {
       "Route": "images/cars/opel_kadett-4.jpg",
       "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-4.jpg",
       "Selectors": [],
@@ -2599,6 +2971,88 @@
       ]
     },
     {
+      "Route": "images/cars/opel-kadett.c3byi2zqje.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel-kadett.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3byi2zqje"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/opel-kadett.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/opel-kadett.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel-kadett.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:22:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLY3Uw1uBdobNinm6mPvqGUHebc9Wy4O2lhuGmlCv4Q="
+        }
+      ]
+    },
+    {
       "Route": "images/cars/saab_900.05mqen537z.jpg",
       "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900.jpg",
       "Selectors": [],
@@ -2677,6 +3131,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-lIzXxC4g5yQMyQ7jUZwzAfpSV9sI/idWBhgU0tLFsc8="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_2.966frd300n.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:23:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "966frd300n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/saab_900_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_2.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:23:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AUwiJr3B97Ahcfnr0OxZ8sU1UQeuNNp2UZLGw5JP/+I="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_3.f96i97ytrt.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:25:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f96i97ytrt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cars/saab_900_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="
+        }
+      ]
+    },
+    {
+      "Route": "images/cars/saab_900_3.jpg",
+      "AssetFile": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 21:25:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3XKlQ79ikACELmwfWCKfDs8mOFsvhjt8hAePuWBkVo="
         }
       ]
     },

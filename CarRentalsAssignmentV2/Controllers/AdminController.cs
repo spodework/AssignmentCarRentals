@@ -28,13 +28,15 @@ namespace CarRentalsAssignmentV2.Controllers
 
         // POST: Admin/Login
         [HttpPost]
-        public ActionResult Login(string email, string password)
+        public ActionResult Login(string adminName, string password)
         {
-            var admin = _adminRepository.GetByEmail(email);
+            var admin = _adminRepository.GetByAdminName(adminName);
 
             if (admin == null)
             {
-                return View();
+                TempData["ErrorMessage"] = "Could not find admin account. Check name/password";
+
+                return View(nameof(Index));
             }
 
             SessionHelper.SetSessionStrings(HttpContext, admin.AdminId, admin.AdminName, admin.Role, admin.Email);

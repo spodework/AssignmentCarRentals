@@ -41,12 +41,36 @@
       "PackagePath": "staticwebassets\\images\\cars\\lada_samara.jpg"
     },
     {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara2.png",
+      "PackagePath": "staticwebassets\\images\\cars\\lada_samara2.png"
+    },
+    {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\lada_samara3.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\lada_samara3.jpg"
+    },
+    {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel-kadett.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\opel-kadett.jpg"
+    },
+    {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-2.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\opel_kadett-2.jpg"
+    },
+    {
       "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\opel_kadett-4.jpg",
       "PackagePath": "staticwebassets\\images\\cars\\opel_kadett-4.jpg"
     },
     {
       "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900.jpg",
       "PackagePath": "staticwebassets\\images\\cars\\saab_900.jpg"
+    },
+    {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_2.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\saab_900_2.jpg"
+    },
+    {
+      "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\saab_900_3.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\saab_900_3.jpg"
     },
     {
       "Id": "D:\\Dev\\School Assignments\\CarRentalsAssignmentV2\\CarRentalsAssignmentV2\\wwwroot\\images\\cars\\toyota_celica.jpg",
